@@ -28,7 +28,6 @@ public class PasswordEntriesController : ControllerBase
                 Id = entry.Id,
                 Website = entry.Website,
                 Username = entry.Username,
-                // Don't send the encrypted password to the client
                 CreatedAt = entry.CreatedAt
             });
         }
